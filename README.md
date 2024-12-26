@@ -39,36 +39,35 @@
 39.	Write a program that finds the second largest number in a list.
 40.	Check for Perfect Number
 41.	Write a program to check if a given number is a perfect number (e.g., 28 is perfect because 1 + 2 + 4 + 7 + 14 = 28).# PYTHON
-
-**1.	Tuples**
-2.	Write a Python program to create a tuple with different data types and print it.
-3.	Given a tuple, how would you find the index of a particular element in it?
-4.	Write a Python program to unpack a tuple into individual variables.
-5.	Write a Python program to find the length of a tuple.
-6.	How can you concatenate two tuples in Python? Write an example.
-**7.**	Lists****
-8.	Write a Python program to add an element to the end of a list.
-9.	Write a Python function that takes a list as input and returns a new list with only even numbers.
-10.	Write a Python program to remove an element from a list by its value.
-11.	Write a Python program to find the second largest element in a list.
-12.	How would you reverse a list in Python without using the reverse() method?
-**13.	Dictionaries**
-14.	Write a Python program to create a dictionary with keys and values, and print it.
-15.	Write a function that accepts a dictionary and returns the key with the maximum value.
-16.	Write a Python program to check if a given key exists in a dictionary.
-17.	Write a Python program to merge two dictionaries into one.
-18.	Write a Python program to delete a key from a dictionary.
-**19.	Sets**
-20.	Write a Python program to create a set and add elements to it.
-21.	Write a Python program to find the union of two sets.
-22.	Write a Python program to check if a given element exists in a set.
-23.	Write a Python program to find the intersection of two sets.
-24.	How would you find the difference between two sets in Python?
-**25.	max() and min() Functions**
-26.	Write a Python program to find the maximum and minimum values in a list of numbers.
-27.	Write a Python program to find the maximum and minimum elements in a tuple.
-28.	Write a Python program that accepts a list of strings and finds the string with the maximum length.
-29.	Write a Python program to find the largest and smallest elements in a dictionary based on their values.
-30.	Write a Python program that returns the maximum and minimum values from a set.
+Tuples**
+1.	Write a Python program to create a tuple with different data types and print it.
+2.	Given a tuple, how would you find the index of a particular element in it?
+3.	Write a Python program to unpack a tuple into individual variables.
+4.	Write a Python program to find the length of a tuple.
+5.	How can you concatenate two tuples in Python? Write an example.
+6.	Lists****
+7.	Write a Python program to add an element to the end of a list.
+8.	Write a Python function that takes a list as input and returns a new list with only even numbers.
+9.	Write a Python program to remove an element from a list by its value.
+10.	Write a Python program to find the second largest element in a list.
+11.	How would you reverse a list in Python without using the reverse() method?
+12.	Dictionaries**
+13.	Write a Python program to create a dictionary with keys and values, and print it.
+14.	Write a function that accepts a dictionary and returns the key with the maximum value.
+15.	Write a Python program to check if a given key exists in a dictionary.
+16.	Write a Python program to merge two dictionaries into one.
+17.	Write a Python program to delete a key from a dictionary.
+18.	Sets**
+19.	Write a Python program to create a set and add elements to it.
+20.	Write a Python program to find the union of two sets.
+21.	Write a Python program to check if a given element exists in a set.
+22.	Write a Python program to find the intersection of two sets.
+23.	How would you find the difference between two sets in Python?
+24.	max() and min() Functions**
+25.	Write a Python program to find the maximum and minimum values in a list of numbers.
+26.	Write a Python program to find the maximum and minimum elements in a tuple.
+27.	Write a Python program that accepts a list of strings and finds the string with the maximum length.
+28.	Write a Python program to find the largest and smallest elements in a dictionary based on their values.
+29.	Write a Python program that returns the maximum and minimum values from a set.
 
 
