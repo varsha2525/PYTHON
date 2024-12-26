@@ -39,6 +39,7 @@
 39.	Write a program that finds the second largest number in a list.
 40.	Check for Perfect Number
 41.	Write a program to check if a given number is a perfect number (e.g., 28 is perfect because 1 + 2 + 4 + 7 + 14 = 28).# PYTHON
+
 **1.	Tuples**
 2.	Write a Python program to create a tuple with different data types and print it.
 3.	Given a tuple, how would you find the index of a particular element in it?
