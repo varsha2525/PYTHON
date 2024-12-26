@@ -1,3 +1,4 @@
+(Note: To practice code use the jupyter notebook - https://jupyter.org/try-jupyter/notebooks/?path=Untitled.ipynb)
 1.	BASIC practice QUESTIONS.
 2.	Fibonacci Sequence
 3.	Write a function to generate the first n Fibonacci numbers.
