@@ -1,0 +1,37 @@
+from tsssdk import TssSdk
+
+# --- Configuration ---
+base_url = "https://yourcompany.secretservercloud.com/SecretServer"
+client_id = "your-client-id"
+client_secret = "your-client-secret"
+verify_ssl = True  # Set to False if using self-signed SSL
+
+# --- Initialize SDK ---
+sdk = TssSdk(
+    base_url=base_url,
+    client_id=client_id,
+    client_secret=client_secret,
+    verify_ssl=verify_ssl
+)
+
+# --- Search for secret by name (e.g., 'rmsvc') ---
+search_results = sdk.secrets.search_secrets("rmsvc")
+
+if not search_results:
+    print("No secrets found with name 'rmsvc'")
+    exit(1)
+
+# Optional: filter exact match
+matched_secret = next((s for s in search_results if s['name'].lower() == 'rmsvc'), search_results[0])
+
+print(f"Found secret: {matched_secret['name']} (ID: {matched_secret['id']})")
+
+# --- Fetch the secret by ID ---
+secret = sdk.secrets.get_secret(matched_secret['id'])
+
+# --- Extract fields (slugs) ---
+username = secret.get_field_value('username')
+password = secret.get_field_value('password')
+
+print(f"Username: {username}")
+print(f"Password: {password}")
