@@ -1,3 +1,5 @@
+pip install tss-sdk
+
 from tsssdk import TssSdk
 
 # --- Configuration ---
